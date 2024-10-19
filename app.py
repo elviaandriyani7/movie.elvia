@@ -4,7 +4,7 @@ from pymongo import MongoClient
 import requests
 from bs4 import BeautifulSoup
 
-client = MongoClient('mongodb+srv://hasanfikri:Sparta@cluster0.w7jyn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client = MongoClient('mongodb+srv://elviaandriani:Sparta@cluster0.w7jyn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 db = client.dbsparta
 app = Flask(__name__)
 
